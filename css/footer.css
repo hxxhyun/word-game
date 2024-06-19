@@ -1,0 +1,42 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-special-block {
+  width: 70px;
+  height: 60px;
+  background-color: #d4d6da;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.keyboard-special-block img {
+  width: 30px;
+}
+
+.keyboard-block {
+  width: 40px;
+  height: 60px;
+  background-color: #d4d6da;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
